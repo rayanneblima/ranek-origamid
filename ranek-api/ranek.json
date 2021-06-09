@@ -29,7 +29,7 @@
       "email": "rayanne2@teste.com",
       "senha": "teste",
       "cep": "36500091",
-      "rua": "Avenida ",
+      "rua": "Avenida",
       "numero": "",
       "bairro": "Centro",
       "cidade": "Ubá",
@@ -40,7 +40,7 @@
     {
       "id": "notebook 1",
       "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "rayanne@teste.com",
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
@@ -49,7 +49,7 @@
     {
       "id": "smartphone 1",
       "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "rayanne@teste.com",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
@@ -58,7 +58,7 @@
     {
       "id": "tablet 1",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "rayanne@teste.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
@@ -67,7 +67,7 @@
     {
       "id": "notebook 2",
       "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "rayanne@teste.com",
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
