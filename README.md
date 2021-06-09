@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Run JSON Server (initial API)
+```
+cd ranek-api && json-server --watch ./ranek.json
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

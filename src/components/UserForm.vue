@@ -1,0 +1,85 @@
+<template>
+  <form>
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name" v-model="nome" />
+
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" v-model="email" />
+
+    <label for="password">Senha</label>
+    <input type="password" name="password" id="password" v-model="senha" />
+
+    <label for="cep">CEP</label>
+    <input type="text" name="cep" id="cep" v-model="cep" @keyup="fillCep" />
+
+    <label for="road">Rua</label>
+    <input type="text" name="road" id="road" v-model="rua" />
+
+    <label for="number">Numero</label>
+    <input type="text" name="number" id="number" v-model="numero" />
+
+    <label for="district">Bairro</label>
+    <input type="text" name="district" id="district" v-model="bairro" />
+
+    <label for="city">Cidade</label>
+    <input type="text" name="city" id="city" v-model="cidade" />
+
+    <label for="state">Estado</label>
+    <input type="text" name="state" id="state" v-model="estado" />
+
+    <div class="button">
+      <slot></slot>
+    </div>
+  </form>
+</template>
+
+<script>
+import { mapFields } from "@/helpers.js";
+import { getCep } from "@/services.js";
+
+export default {
+  name: "UserForm",
+  computed: {
+    ...mapFields({
+      fields: [
+        "nome",
+        "email",
+        "senha",
+        "cep",
+        "rua",
+        "numero",
+        "bairro",
+        "cidade",
+        "estado",
+      ],
+      base: "usuario",
+      mutation: "UPDATE_USER",
+    }),
+  },
+  methods: {
+    fillCep() {
+      const cep = this.cep.replace(/\D/g, "");
+      if (cep.length === 8) {
+        getCep(cep).then((res) => {
+          this.rua = res.data.logradouro;
+          this.bairro = res.data.bairro;
+          this.cidade = res.data.localidade;
+          this.estado = res.data.uf;
+        });
+      }
+    },
+  },
+};
+</script>
+
+<style scoped>
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  grid-column: 2;
+  margin-top: 10px;
+}
+</style>
