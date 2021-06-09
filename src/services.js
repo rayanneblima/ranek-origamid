@@ -9,7 +9,7 @@ export const api = {
     return axiosInstance.get(endpoint)
   },
   post(endpoint, body) {
-    return axiosInstance.get(endpoint, body)
+    return axiosInstance.post(endpoint, body)
   }
 }
 

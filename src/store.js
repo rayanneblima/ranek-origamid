@@ -30,14 +30,18 @@ export default new Vuex.Store({
   },
   actions: {
     getUser(context, payload) {
-      return api.get(`/usuario/${payload}`).then(res => {
-            context.commit('UPDATE_USER', res.data)
-            context.commit('UPDATE_LOGIN', true)
-         })
+      return api.get(`/usuario/${payload}`)
+                  .then(res => {
+                    if (res.status === 200) {
+                      context.commit('UPDATE_USER', res.data)
+                      context.commit('UPDATE_LOGIN', true)
+                    }
+                  })
     },
     createUser(context, payload) {
       context.commit('UPDATE_USER', { id: payload.email })
-      return api.post('/usuario', payload).then(res => res.status === 200 ? alert('Cadastrado com sucesso!') : alert('Ocorreu um erro. Tente novamente mais tarde.'))
+      return api.post('/usuario', payload)
+                  .then(res => res.status === 201 ? alert('Cadastrado com sucesso!') : alert('Ocorreu um erro. Tente novamente mais tarde.'))
     }
   }
 });

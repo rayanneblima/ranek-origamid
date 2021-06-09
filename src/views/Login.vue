@@ -11,22 +11,22 @@
     </form>
     <p class="forgot-password">
       Esqueceu a senha?
-      <a href="/" target="_blank">Clique aqui.</a>
+      <a href="/">Clique aqui.</a>
     </p>
     <p class="create-acc" @click="createIsOpen = true">Criar conta</p>
     </div>
     <div v-else>
-      <CreateLogin />
+      <CreateAcc />
     </div>
   </section>
 </template>
 
 <script>
-import CreateLogin from '@/components/CreateLogin.vue'
+import CreateAcc from '@/components/CreateAcc.vue'
 
 export default {
   name: 'Login',
-  components: { CreateLogin },
+  components: { CreateAcc },
   data() {
     return {
       createIsOpen: false,

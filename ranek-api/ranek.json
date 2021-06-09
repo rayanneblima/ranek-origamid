@@ -10,6 +10,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "rayanne@teste.com",
+      "nome": "Rayanne",
+      "email": "rayanne@teste.com",
+      "senha": "teste",
+      "cep": "36500091",
+      "rua": "Avenida",
+      "numero": "",
+      "bairro": "Centro",
+      "cidade": "Ubá",
+      "estado": "MG"
     }
   ],
   "produto": [
