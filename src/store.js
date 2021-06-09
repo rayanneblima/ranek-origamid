@@ -42,6 +42,21 @@ export default new Vuex.Store({
       context.commit('UPDATE_USER', { id: payload.email })
       return api.post('/usuario', payload)
                   .then(res => res.status === 201 ? alert('Cadastrado com sucesso!') : alert('Ocorreu um erro. Tente novamente mais tarde.'))
+    },
+    logout(context) {
+      context.commit('UPDATE_USER', {
+        id: '',
+        nome: '',
+        email: '',
+        senha: '',
+        cep: '',
+        rua: '',
+        numero: '',
+        bairro: '',
+        cidade: '',
+        estado: ''
+      })
+      context.commit('UPDATE_LOGIN', false)
     }
   }
 });

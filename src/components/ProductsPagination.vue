@@ -55,7 +55,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 ul {
   grid-column: 1 / -1;
   margin-top: 30px;
