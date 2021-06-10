@@ -9,6 +9,7 @@
           <p>{{ produto.descricao }}</p>
           <button class="delete" @click="deleteProduct(produto.id)">Deletar</button>
         </ProductItem>
+        <hr class="solid" />
       </li>
     </transition-group>
   </section>
@@ -74,5 +75,9 @@ h2 {
   top: 0;
   overflow: hidden;
   width: 24px;
+}
+
+hr.solid {
+  border-top: 1px solid #f4f7fc;
 }
 </style>>

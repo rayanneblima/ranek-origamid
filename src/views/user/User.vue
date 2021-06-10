@@ -66,6 +66,7 @@ export default {
 
 .sidenav button {
   border: none;
+  color: #345;
   cursor: pointer;
   font-family: "Avenir", Arial, Helvetica, sans-serif;
   font-size: 1rem;
