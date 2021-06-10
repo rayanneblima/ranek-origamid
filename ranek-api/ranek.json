@@ -13,24 +13,12 @@
     },
     {
       "id": "rayanne@teste.com",
-      "nome": "Rayanne",
+      "nome": "Rayanne B. Lima",
       "email": "rayanne@teste.com",
-      "senha": "teste",
+      "senha": "",
       "cep": "36500091",
       "rua": "Avenida",
-      "numero": "",
-      "bairro": "Centro",
-      "cidade": "Ubá",
-      "estado": "MG"
-    },
-    {
-      "id": "rayanne2@teste.com",
-      "nome": "Rayane",
-      "email": "rayanne2@teste.com",
-      "senha": "teste",
-      "cep": "36500091",
-      "rua": "Avenida",
-      "numero": "",
+      "numero": "0",
       "bairro": "Centro",
       "cidade": "Ubá",
       "estado": "MG"

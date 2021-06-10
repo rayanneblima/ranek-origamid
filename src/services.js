@@ -5,17 +5,20 @@ const axiosInstance = axios.create({
 })
 
 export const api = {
-  get(endpoint) {
+  get (endpoint) {
     return axiosInstance.get(endpoint)
   },
-  post(endpoint, body) {
+  post (endpoint, body) {
     return axiosInstance.post(endpoint, body)
   },
-  delete(endpoint) {
+  put (endpoint, body) {
+    return axiosInstance.put(endpoint, body)
+  },
+  delete (endpoint) {
     return axiosInstance.delete(endpoint)
   }
 }
 
-export function getCep(cep) {
+export function getCep (cep) {
   return axios.get(`https://viacep.com.br/ws/${cep}/json/`)
 }
