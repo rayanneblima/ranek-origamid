@@ -1,4 +1,47 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "rayanne@teste.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone 2",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "36500091",
+        "rua": "Avenida",
+        "bairro": "Centro",
+        "cidade": "Ubá",
+        "estado": "MG"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "fulano@teste.com",
+      "vendedor_id": "andre@origamid.com",
+      "produto": {
+        "id": "smartphone 2",
+        "nome": "Smartphone",
+        "usuario_id": "andre@origamid.com",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "36520010",
+        "bairro": "Centro",
+        "cidade": "X",
+        "estado": "MG"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "andre@origamid.com",
@@ -21,6 +64,17 @@
       "numero": "0",
       "bairro": "Centro",
       "cidade": "Ubá",
+      "estado": "MG"
+    },
+    {
+      "id": "fulano@teste.com",
+      "nome": "Fulano",
+      "email": "fulano@teste.com",
+      "senha": "",
+      "cep": "36520010",
+      "numero": "23",
+      "bairro": "Centro",
+      "cidade": "X",
       "estado": "MG"
     }
   ],
