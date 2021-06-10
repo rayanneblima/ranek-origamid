@@ -51,5 +51,4 @@ export default {
 .btn {
   grid-column: 2;
 }
-
 </style>

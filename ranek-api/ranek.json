@@ -38,42 +38,6 @@
   ],
   "produto": [
     {
-      "id": "notebook 1",
-      "nome": "Notebook",
-      "usuario_id": "rayanne@teste.com",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone 1",
-      "nome": "Smartphone",
-      "usuario_id": "rayanne@teste.com",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet 1",
-      "nome": "Tablet",
-      "usuario_id": "rayanne@teste.com",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook 2",
-      "nome": "Notebook",
-      "usuario_id": "rayanne@teste.com",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
       "id": "smartphone 2",
       "nome": "Smartphone",
       "usuario_id": "andre@origamid.com",
@@ -1553,60 +1517,12 @@
       "id": "CkB8pp9"
     },
     {
-      "nome": "Produto de Teste 0",
-      "preco": "2500",
-      "descricao": "Produto de Teste 0",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "ckKOCGV"
-    },
-    {
-      "nome": "Produto de Teste 1",
-      "preco": "1550",
-      "descricao": "Produto de Teste 1",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "fiJTLVe"
-    },
-    {
-      "nome": "Produto de Teste 2",
-      "preco": "2221",
-      "descricao": "Produto de Teste 2",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "id1FFas"
-    },
-    {
-      "nome": "Produto de Teste 2",
-      "preco": "2221",
-      "descricao": "Produto de Teste 2",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "HMDlZQ_"
-    },
-    {
       "nome": "Produto de Teste 2",
       "preco": "2221",
       "descricao": "Produto de Teste 2",
       "fotos": null,
       "usuario_id": "rayanne@teste.com",
       "id": "tGtTR-5"
-    },
-    {
-      "nome": "Produto de Teste 666",
-      "preco": "2664",
-      "descricao": "Produto de Teste 666",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "2Timln9"
-    },
-    {
-      "nome": "Teste 425",
-      "preco": "2332",
-      "descricao": "Teste 425",
-      "fotos": null,
-      "usuario_id": "rayanne@teste.com",
-      "id": "QtLveAj"
     }
   ]
 }
